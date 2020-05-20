@@ -10,7 +10,15 @@ body {
   -webkit-animation: colorchange 30s infinite;
   animation: colorchange 30s infinite;
 }
-
+p {
+  font-size: 0.8em;
+  color: #eee;
+  margin: 10px 0px;
+}
+p a {
+  text-decoration: none;
+  color: #2ed573;
+}
 @-webkit-keyframes colorchange {
   0% {
     background-color: gold;
@@ -55,8 +63,9 @@ body {
   background: linear-gradient(to bottom right, #000, #182C61);
   box-shadow: 0 0 20px #f1f2f6;
   width: 400px;
-  height: 300px;
+  height: auto;
   padding: 10px;
+  overflow: hidden;
   text-align: center;
   display: flex;
   flex-direction: column;
