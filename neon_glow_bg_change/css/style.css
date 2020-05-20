@@ -95,6 +95,7 @@ body {
   border: 1.5px solid #32ff7e;
   box-shadow: 0 0 7px #32ff7e;
   width: 250px;
+  transition: 150ms;
 }
 
 .box input[type="submit"] {
