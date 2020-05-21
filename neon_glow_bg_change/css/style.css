@@ -77,7 +77,6 @@ p a {
   color: white;
   font-family: 'Jost', sans-serif;
   text-transform: uppercase;
-  text-align: center;
   font-weight: 150;
   text-shadow: 0 0 5px white;
 }
@@ -96,7 +95,6 @@ p a {
   margin-bottom: 15px;
   width: 200px;
   padding: 15px 10px;
-  transition: 0.20s ease;
 }
 
 .box input[type="text"]:hover,
@@ -104,9 +102,8 @@ p a {
   border: 1.5px solid #32ff7e;
   box-shadow: 0 0 7px #32ff7e;
   width: 250px;
-  transition: 150ms;
+  transition: 150ms ease;
 }
-
 .box input[type="submit"] {
   text-align: center;
   background: crimson;
