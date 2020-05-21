@@ -96,7 +96,7 @@ p a {
   margin-bottom: 15px;
   width: 200px;
   padding: 15px 10px;
-  transition: 0.20;
+  transition: 0.20s ease;
 }
 
 .box input[type="text"]:hover,
