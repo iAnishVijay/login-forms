@@ -65,6 +65,7 @@ p a {
   width: 400px;
   height: auto;
   padding: 10px;
+  border-radius: 10px;
   overflow: hidden;
   text-align: center;
   display: flex;
